@@ -1,0 +1,5 @@
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=Buttons|SchDesignator=Buttons|FileName=Input.SchDoc|SymbolType=Normal|RawFileName=Input.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=ICSP|SchDesignator=ICSP|FileName=PIC-ICSP-RST.SchDoc|SymbolType=Normal|RawFileName=PIC-ICSP-RST.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=Power Supply|SchDesignator=Power Supply|FileName=PSU.SchDoc|SymbolType=Normal|RawFileName=PSU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=RTC|SchDesignator=RTC|FileName=DS3231-RTC.SchDoc|SymbolType=Normal|RawFileName=DS3231-RTC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=TopLevelDocument|FileName=Main.SchDoc

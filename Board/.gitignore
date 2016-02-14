@@ -1,0 +1,9 @@
+# Ignore list for Altium Designer
+
+History
+Project Logs for *
+Project Outputs for *
+*.SchDocPreview
+*.PcbDocPreview
+*.Cam
+*~$*

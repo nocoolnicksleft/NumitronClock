@@ -1,0 +1,1139 @@
+MPLINK 4.40, Linker
+Linker Map File - Created Tue Dec 25 11:08:10 2012
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+               _entry_scn       code   0x000000    program   0x000006
+       .code__user_putc.o       code   0x000006    program   0x000002
+              high_vector       code   0x000008    program   0x000006
+           .code___init.o       code   0x00000e    program   0x000002
+        .idata_stdout.o_i    romdata   0x000010    program   0x000002
+               low_vector       code   0x000018    program   0x000006
+                   .cinit    romdata   0x00001e    program   0x000026
+             .code_main.o       code   0x000044    program   0x000ef0
+         .code_vfprintf.o       code   0x000f34    program   0x000c22
+           .code_ds3231.o       code   0x001b56    program   0x000844
+              .code_dcf.o       code   0x00239a    program   0x0004fc
+             .stringtable    romdata   0x002896    program   0x00018b
+      .idata_fxd1616u.o_i    romdata   0x002a21    program   0x000000
+      .romdata_fxd1616u.o    romdata   0x002a21    program   0x000000
+      .idata_i2c_open.o_i    romdata   0x002a21    program   0x000000
+      .romdata_i2c_open.o    romdata   0x002a21    program   0x000000
+         .idata_uopen.o_i    romdata   0x002a21    program   0x000000
+         .romdata_uopen.o    romdata   0x002a21    program   0x000000
+      .idata_i2c_writ.o_i    romdata   0x002a21    program   0x000000
+      .romdata_i2c_writ.o    romdata   0x002a21    program   0x000000
+        .romdata___init.o    romdata   0x002a21    program   0x000000
+        .romdata_printf.o    romdata   0x002a21    program   0x000000
+    .idata__user_putc.o_i    romdata   0x002a21    program   0x000000
+        .romdata_stdout.o    romdata   0x002a21    program   0x000000
+          .idata_putc.o_i    romdata   0x002a21    program   0x000000
+       .romdata_fxm3232.o    romdata   0x002a21    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x002a21    program   0x000000
+         .romdata_c018i.o    romdata   0x002a21    program   0x000000
+        .idata_ds3231.o_i    romdata   0x002a21    program   0x000000
+        .romdata_ds3231.o    romdata   0x002a21    program   0x000000
+           .code_stdout.o       code   0x002a22    program   0x000000
+                     PROG       code   0x002a22    program   0x0000fe
+                   STRING       code   0x002b20    program   0x0000f0
+               _cinit_scn       code   0x002c10    program   0x00009e
+           .code_printf.o       code   0x002cae    program   0x000098
+            .code_uopen.o       code   0x002d46    program   0x00008a
+             .code_putc.o       code   0x002dd0    program   0x000084
+         .code_i2c_writ.o       code   0x002e54    program   0x000072
+          .code_fxm3232.o       code   0x002ec6    program   0x000070
+         .code_fxd3232u.o       code   0x002f36    program   0x000048
+           .code_t0open.o       code   0x002f7e    program   0x000038
+         .code_i2c_open.o       code   0x002fb6    program   0x000036
+         .code_fxd1616u.o       code   0x002fec    program   0x00002c
+                    CTYPE       code   0x003018    program   0x000024
+                    .code       code   0x00303c    program   0x000020
+             _startup_scn       code   0x00305c    program   0x00001c
+                    STDIO       code   0x003078    program   0x00001c
+         .code_fxd0808u.o       code   0x003094    program   0x00001c
+         .code_i2c_read.o       code   0x0030b0    program   0x00001a
+              D10TCYXCODE       code   0x0030ca    program   0x000016
+      .romdata_vfprintf.o    romdata   0x0030e0    program   0x000011
+      .idata_vfprintf.o_i    romdata   0x0030f1    program   0x000000
+    .romdata__user_putc.o    romdata   0x0030f1    program   0x000000
+          .romdata_main.o    romdata   0x0030f1    program   0x000000
+          .romdata_putc.o    romdata   0x0030f1    program   0x000000
+        .idata_printf.o_i    romdata   0x0030f1    program   0x000000
+         .idata_c018i.o_i    romdata   0x0030f1    program   0x000000
+      .romdata_fxd0808u.o    romdata   0x0030f1    program   0x000000
+      .idata_fxd0808u.o_i    romdata   0x0030f1    program   0x000000
+      .idata_fxd3232u.o_i    romdata   0x0030f1    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x0030f1    program   0x000000
+      .idata_i2c_idle.o_i    romdata   0x0030f1    program   0x000000
+      .romdata_i2c_idle.o    romdata   0x0030f1    program   0x000000
+           .romdata_dcf.o    romdata   0x0030f1    program   0x000000
+        .idata_t0open.o_i    romdata   0x0030f1    program   0x000000
+        .romdata_t0open.o    romdata   0x0030f1    program   0x000000
+      .idata_i2c_read.o_i    romdata   0x0030f1    program   0x000000
+      .romdata_i2c_read.o    romdata   0x0030f1    program   0x000000
+        .idata___init.o_i    romdata   0x0030f1    program   0x000000
+         .code_i2c_idle.o       code   0x0030f2    program   0x00000e
+            .code_c018i.o       code   0x0030f2    program   0x000000
+          .idata_main.o_i    romdata   0x003100    program   0x00003a
+           .idata_dcf.o_i    romdata   0x00313a    program   0x000007
+    .config_300000_main.o    romdata   0x300000    program   0x000001
+    .config_300001_main.o    romdata   0x300001    program   0x000001
+    .config_300002_main.o    romdata   0x300002    program   0x000001
+    .config_300003_main.o    romdata   0x300003    program   0x000001
+    .config_300005_main.o    romdata   0x300005    program   0x000001
+    .config_300006_main.o    romdata   0x300006    program   0x000001
+                MATH_DATA      udata   0x000000       data   0x000014
+                 .tmpdata      udata   0x000014       data   0x000007
+            .udata_main.o      udata   0x000060       data   0x000046
+            .idata_main.o      idata   0x0000a6       data   0x00003a
+             .udata_dcf.o      udata   0x0000e0       data   0x00001c
+          .idata_stdout.o      idata   0x0000fc       data   0x000002
+           .idata_uopen.o      idata   0x0000fe       data   0x000000
+        .udata_i2c_read.o      udata   0x0000fe       data   0x000000
+        .idata_i2c_read.o      idata   0x0000fe       data   0x000000
+        .udata_i2c_writ.o      udata   0x0000fe       data   0x000000
+        .idata_i2c_writ.o      idata   0x0000fe       data   0x000000
+          .udata___init.o      udata   0x0000fe       data   0x000000
+          .idata___init.o      idata   0x0000fe       data   0x000000
+          .udata_printf.o      udata   0x0000fe       data   0x000000
+          .idata_printf.o      idata   0x0000fe       data   0x000000
+          .udata_stdout.o      udata   0x0000fe       data   0x000000
+        .udata_vfprintf.o      udata   0x0000fe       data   0x000000
+        .idata_vfprintf.o      idata   0x0000fe       data   0x000000
+         .udata_fxm3232.o      udata   0x0000fe       data   0x000000
+         .idata_fxm3232.o      idata   0x0000fe       data   0x000000
+            .udata_putc.o      udata   0x0000fe       data   0x000000
+            .idata_putc.o      idata   0x0000fe       data   0x000000
+      .udata__user_putc.o      udata   0x0000fe       data   0x000000
+      .idata__user_putc.o      idata   0x0000fe       data   0x000000
+           .idata_c018i.o      idata   0x0000fe       data   0x000000
+          .idata_ds3231.o      idata   0x0000fe       data   0x000000
+        .udata_fxd0808u.o      udata   0x0000fe       data   0x000000
+        .idata_fxd0808u.o      idata   0x0000fe       data   0x000000
+        .udata_fxd1616u.o      udata   0x0000fe       data   0x000000
+        .idata_fxd1616u.o      idata   0x0000fe       data   0x000000
+        .udata_fxd3232u.o      udata   0x0000fe       data   0x000000
+        .idata_fxd3232u.o      idata   0x0000fe       data   0x000000
+        .udata_i2c_idle.o      udata   0x0000fe       data   0x000000
+        .idata_i2c_idle.o      idata   0x0000fe       data   0x000000
+        .udata_i2c_open.o      udata   0x0000fe       data   0x000000
+        .idata_i2c_open.o      idata   0x0000fe       data   0x000000
+          .udata_t0open.o      udata   0x0000fe       data   0x000000
+          .idata_t0open.o      idata   0x0000fe       data   0x000000
+           .udata_uopen.o      udata   0x0000fe       data   0x000000
+                   .stack      udata   0x000100       data   0x000100
+           .udata_c018i.o      udata   0x000200       data   0x00000a
+          .udata_ds3231.o      udata   0x00020a       data   0x000009
+             .idata_dcf.o      idata   0x000213       data   0x000007
+              SFR_BANKED0      udata   0x000f53       data   0x00000d
+            SFR_UNBANKED0      udata   0x000f60       data   0x0000a0
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000011      
+                            0x000018    0x002a20      
+                            0x002a22    0x0030f0      
+                            0x0030f2    0x003140      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+            12607 out of 16664 program addresses used, program memory utilization is 75%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    D10_1   0x0030da    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+                     D10x   0x0030d2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+                   D3232S   0x002a52    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232s.asm
+                D3232SNEG   0x002a60    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232s.asm
+                 D3232SOK   0x002a5c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232s.asm
+                  D3232SX   0x002a80    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232s.asm
+                  DA3232S   0x002a3c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232s.asm
+              Delay10TCYx   0x0030ca    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+                 FXD0808U   0x003094    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd0808u.c
+                 FXD1616U   0x002fec    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd1616u.c
+                 FXD3232S   0x002a22    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232s.asm
+                 FXD3232U   0x002f36    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232u.c
+                 FXM1616S   0x002ac6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
+                 FXM1616U   0x002a8a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616u.asm
+                  FXM3232   0x002ec6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm3232.c
+                  IdleI2C   0x0030f2    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\i2c\i2c_idle.c
+                  OpenI2C   0x002fb6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\i2c\i2c_open.c
+               OpenTimer0   0x002f7e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\Timers\t0open.c
+                OpenUSART   0x002d46    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\uopen.c
+               RTCGetTemp   0x001d48    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+               RTCGetTime   0x001e2c    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+                  RTCRead   0x001bbe    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+               RTCSetTime   0x00215a    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+                 RTCWrite   0x001c90    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+                  ReadI2C   0x0030b0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\i2c\i2c_read.c
+               TSIGN1616A   0x002b12    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
+                 WriteI2C   0x002e54    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\i2c\i2c_writ.c
+              _2jContinue   0x002b96    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memset.asm
+                   _2jEnd   0x002bfa    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                   _3jEnd   0x002ba0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memset.asm
+              _4jContinue   0x002b54    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memcpy.asm
+                   _5jEnd   0x002b5e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memcpy.asm
+        _D10TCYXCODE_000A   0x0030d4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x0030d6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x0030d8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+       ___return_lbl00000   0x00001c    program     static                          
+       ___return_lbl00000   0x002f34    program     static                          
+       ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00000   0x0030ae    program     static                          
+       ___return_lbl00000   0x003016    program     static                          
+       ___return_lbl00000   0x002f7c    program     static                          
+       ___return_lbl00001   0x003076    program     static                          
+       ___return_lbl00002   0x002cac    program     static                          
+       ___return_lbl00003   0x00000c    program     static                          
+               __config_0   0x300000    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __config_1   0x300001    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __config_2   0x300002    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __config_3   0x300003    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __config_4   0x300005    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __config_5   0x300006    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                   __init   0x00000e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\__init.c
+                   __pa_0   0x001874    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_1   0x00187c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_10   0x001930    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_11   0x00193e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_12   0x001954    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_13   0x00196e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_14   0x001986    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_15   0x001996    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_16   0x0019ac    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_17   0x0019be    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_18   0x0019d0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_19   0x0019da    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_2   0x001886    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_20   0x0019ea    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_21   0x0019fa    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_22   0x001a0a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_23   0x001a16    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_24   0x001a24    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_25   0x001a2c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_26   0x001a36    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_27   0x001a40    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_28   0x001a48    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_29   0x001a56    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_3   0x001890    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_30   0x001a72    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_31   0x001a8c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_32   0x001aa6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_33   0x001abe    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_34   0x001ac8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_35   0x001ad6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_36   0x001ade    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_37   0x001ae8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_38   0x001af8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_39   0x001b06    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_4   0x0018a8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_40   0x001b12    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_41   0x001b1e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_42   0x001b26    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_43   0x001b30    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_44   0x001b36    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_45   0x001b40    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_46   0x001b4c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_5   0x0018bc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_6   0x0018d8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_7   0x0018e2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_8   0x0018ee    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_9   0x001910    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+               __string_0   0x0029f9    program     static C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+               __string_0   0x00294e    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_0   0x00297c    program     static C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+               __string_1   0x0029cf    program     static C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+               __string_1   0x002948    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              __string_10   0x0028ac    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              __string_11   0x002896    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_2   0x002941    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_2   0x0029ac    program     static C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+               __string_3   0x00293b    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_4   0x002936    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_5   0x002928    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_6   0x002917    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_7   0x0028fb    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_8   0x0028df    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_9   0x0028c1    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              __tmplbl_42   0x001a0a    program     static                          
+              __tmplbl_43   0x001852    program     static                          
+              __tmplbl_44   0x001838    program     static                          
+              __tmplbl_85   0x000f8a    program     static                          
+            __zero_memory   0x00303c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                _do_cinit   0x002c10    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                   _entry   0x000000    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                   _false   0x002f78    program     static                          
+                 _startup   0x00305c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+              _usart_putc   0x003078    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
+               _user_putc   0x000006    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\_user_putc.c
+                bcddecode   0x001b56    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+           bcddecodelocal   0x00239a    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+                bcdencode   0x001b7e    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+                compare_l   0x003052    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                configure   0x000b5a    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                copy_loop   0x002c82    program     static                          
+            copy_one_byte   0x002c88    program     static                          
+                dcfdecode   0x00271e    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+             dcfpulsedown   0x0027ec    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+               dcfpulseup   0x0027ba    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+              dcfsavetime   0x000162    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              displayDate   0x000a16    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+       displayTemperature   0x0007c2    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              displayTime   0x000960    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+            displayUpdate   0x000786    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              displayYear   0x000ace    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+            do_dcf_decode   0x0023c2    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+               dokeyboard   0x00039e    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                     done   0x002cac    program     static                          
+             done_copying   0x002c96    program     static                          
+                  endloop   0x0030aa    program     static                          
+                  endloop   0x003012    program     static                          
+         get_queue_length   0x0002de    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+            handlekeycode   0x0004d8    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                 high_isr   0x00006e    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                  initRTC   0x00237a    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+ interrupt_at_high_vector   0x000008    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+  interrupt_at_low_vector   0x000018    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                  isdigit   0x003018    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                     jEnd   0x002bc4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                     jEnd   0x002bfc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x002ba8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memset.asm
+                     jEnd   0x002b64    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memcpy.asm
+                    jLoop   0x002bba    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                    jLoop   0x002b8a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memset.asm
+                    jLoop   0x002be4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x002b48    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memcpy.asm
+                   jMatch   0x003038    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x00303a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                     loop   0x00306c    program     static                          
+                     loop   0x002f44    program     static                          
+                     loop   0x002ff6    program     static                          
+                     loop   0x00309c    program     static                          
+                     loop   0x003088    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
+                   loop_h   0x00304a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   loop_l   0x003054    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  low_isr   0x000044    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                     main   0x000b80    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                   memcpy   0x002b20    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memcpy.asm
+                   memset   0x002b76    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memset.asm
+                      pop   0x00033e    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                   printf   0x002cae    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\printf.c
+                     push   0x00025e    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                     putc   0x002dd0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
+                 s_digits   0x0030e0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+            s_put_n_chars   0x000f34    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+  setDisplayBuffersToZero   0x000b38    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                 shiftout   0x0006da    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                   strlen   0x002baa    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x002bc6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                   strobe   0x000776    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                     test   0x002c2a    program     static                          
+                 vfprintf   0x000f60    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+               zero_block   0x00304a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   ADCON0   0x000fc2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               ADCON0bits   0x000fc2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   ADCON1   0x000fc1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               ADCON1bits   0x000fc1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   ADCON2   0x000fc0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               ADCON2bits   0x000fc0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    ADRES   0x000fc3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   ADRESH   0x000fc4       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   ADRESL   0x000fc3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    ANSEL   0x000f7e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   ANSELH   0x000f7f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               ANSELHbits   0x000f7f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                ANSELbits   0x000f7e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  BAUDCON   0x000fb8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              BAUDCONbits   0x000fb8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  BAUDCTL   0x000fb8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              BAUDCTLbits   0x000fb8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                BCDto7SEG   0x0000be       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                      BSR   0x000fe0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  CCP1CON   0x000fbd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              CCP1CONbits   0x000fbd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    CCPR1   0x000fbe       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   CCPR1H   0x000fbf       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   CCPR1L   0x000fbe       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  CM1CON0   0x000f6d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              CM1CON0bits   0x000f6d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  CM2CON0   0x000f6b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              CM2CON0bits   0x000f6b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  CM2CON1   0x000f6c       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              CM2CON1bits   0x000f6c       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              CurrentTime   0x00020a       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+                     DDRA   0x000f92       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 DDRAbits   0x000f92       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     DDRB   0x000f93       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 DDRBbits   0x000f93       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     DDRC   0x000f94       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 DDRCbits   0x000f94       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  ECCP1AS   0x000fb6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    EEADR   0x000fa9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                EEADRbits   0x000fa9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   EECON1   0x000fa6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               EECON1bits   0x000fa6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   EECON2   0x000fa7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   EEDATA   0x000fa8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     FSR0   0x000fe9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    FSR0H   0x000fea       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    FSR0L   0x000fe9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     FSR1   0x000fe1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    FSR1H   0x000fe2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    FSR1L   0x000fe1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     FSR2   0x000fd9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    FSR2H   0x000fda       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    FSR2L   0x000fd9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    INDF0   0x000fef       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    INDF1   0x000fe7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    INDF2   0x000fdf       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   INTCON   0x000ff2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  INTCON2   0x000ff1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              INTCON2bits   0x000ff1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  INTCON3   0x000ff0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              INTCON3bits   0x000ff0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               INTCONbits   0x000ff2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     IOCA   0x000f79       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 IOCAbits   0x000f79       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     IOCB   0x000f7a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 IOCBbits   0x000f7a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     IPR1   0x000f9f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 IPR1bits   0x000f9f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     IPR2   0x000fa2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 IPR2bits   0x000fa2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     LATA   0x000f89       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 LATAbits   0x000f89       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     LATB   0x000f8a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 LATBbits   0x000f8a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     LATC   0x000f8b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 LATCbits   0x000f8b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   OSCCON   0x000fd3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  OSCCON2   0x000fd2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              OSCCON2bits   0x000fd2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               OSCCONbits   0x000fd3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  OSCTUNE   0x000f9b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                       PC   0x000ff9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                      PCL   0x000ff9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   PCLATH   0x000ffa       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   PCLATU   0x000ffb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     PIE1   0x000f9d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 PIE1bits   0x000f9d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     PIE2   0x000fa0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 PIE2bits   0x000fa0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     PIR1   0x000f9e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 PIR1bits   0x000f9e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     PIR2   0x000fa1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 PIR2bits   0x000fa1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   PLUSW0   0x000feb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   PLUSW1   0x000fe3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   PLUSW2   0x000fdb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    PORTA   0x000f80       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                PORTAbits   0x000f80       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    PORTB   0x000f81       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                PORTBbits   0x000f81       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    PORTC   0x000f82       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                PORTCbits   0x000f82       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 POSTDEC0   0x000fed       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 POSTDEC1   0x000fe5       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 POSTDEC2   0x000fdd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 POSTINC0   0x000fee       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 POSTINC1   0x000fe6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 POSTINC2   0x000fde       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                      PR2   0x000fcb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  PREINC0   0x000fec       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  PREINC1   0x000fe4       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  PREINC2   0x000fdc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     PROD   0x000ff3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    PRODH   0x000ff4       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    PRODL   0x000ff3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  PSTRCON   0x000fb9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              PSTRCONbits   0x000fb9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  PWM1CON   0x000fb7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              PWM1CONbits   0x000fb7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     RCON   0x000fd0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 RCONbits   0x000fd0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    RCREG   0x000fae       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    RCSTA   0x000fab       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                RCSTAbits   0x000fab       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  REFCON0   0x000fba       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              REFCON0bits   0x000fba       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  REFCON1   0x000fbb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              REFCON1bits   0x000fbb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  REFCON2   0x000fbc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              REFCON2bits   0x000fbc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     SIGN   0x000000       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\cmath18.asm
+                   SLRCON   0x000f76       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               SLRCONbits   0x000f76       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    SPBRG   0x000faf       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SPBRGH   0x000fb0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SRCON0   0x000f68       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               SRCON0bits   0x000f68       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SRCON1   0x000f69       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               SRCON1bits   0x000f69       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SSPADD   0x000fc8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SSPBUF   0x000fc9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  SSPCON1   0x000fc6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              SSPCON1bits   0x000fc6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  SSPCON2   0x000fc5       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              SSPCON2bits   0x000fc5       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SSPMSK   0x000f6f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               SSPMSKbits   0x000f6f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  SSPSTAT   0x000fc7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              SSPSTATbits   0x000fc7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   STATUS   0x000fd8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               STATUSbits   0x000fd8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   STKPTR   0x000ffc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               STKPTRbits   0x000ffc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    T0CON   0x000fd5       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                T0CONbits   0x000fd5       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    T1CON   0x000fcd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                T1CONbits   0x000fcd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    T2CON   0x000fca       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                T2CONbits   0x000fca       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    T3CON   0x000fb1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                T3CONbits   0x000fb1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   TABLAT   0x000ff5       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   TBLPTR   0x000ff6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  TBLPTRH   0x000ff7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  TBLPTRL   0x000ff6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  TBLPTRU   0x000ff8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TMR0H   0x000fd7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TMR0L   0x000fd6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TMR1H   0x000fcf       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TMR1L   0x000fce       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     TMR2   0x000fcc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TMR3H   0x000fb3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TMR3L   0x000fb2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                      TOS   0x000ffd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     TOSH   0x000ffe       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     TOSL   0x000ffd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     TOSU   0x000fff       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TRISA   0x000f92       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                TRISAbits   0x000f92       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TRISB   0x000f93       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                TRISBbits   0x000f93       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TRISC   0x000f94       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                TRISCbits   0x000f94       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TXREG   0x000fad       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TXSTA   0x000fac       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                TXSTAbits   0x000fac       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    UADDR   0x000f5c       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                UADDRbits   0x000f5c       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UCFG   0x000f61       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UCFGbits   0x000f61       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UCON   0x000f64       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UCONbits   0x000f64       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEIE   0x000f5b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEIEbits   0x000f5b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEIR   0x000f5f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEIRbits   0x000f5f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP0   0x000f53       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP0bits   0x000f53       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP1   0x000f54       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP1bits   0x000f54       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP2   0x000f55       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP2bits   0x000f55       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP3   0x000f56       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP3bits   0x000f56       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP4   0x000f57       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP4bits   0x000f57       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP5   0x000f58       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP5bits   0x000f58       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP6   0x000f59       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP6bits   0x000f59       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP7   0x000f5a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP7bits   0x000f5a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    UFRMH   0x000f5e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                UFRMHbits   0x000f5e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    UFRML   0x000f5d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                UFRMLbits   0x000f5d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                      UIE   0x000f60       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  UIEbits   0x000f60       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                      UIR   0x000f62       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  UIRbits   0x000f62       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    USTAT   0x000f63       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                USTATbits   0x000f63       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 VREFCON0   0x000fba       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+             VREFCON0bits   0x000fba       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 VREFCON1   0x000fbb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+             VREFCON1bits   0x000fbb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 VREFCON2   0x000fbc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+             VREFCON2bits   0x000fbc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                        W   0x000fe8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   WDTCON   0x000fd1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               WDTCONbits   0x000fd1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     WPUA   0x000f77       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 WPUAbits   0x000f77       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     WPUB   0x000f78       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 WPUBbits   0x000f78       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     WREG   0x000fe8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 __AARGB0   0x000009       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB1   0x000008       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB2   0x000007       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB3   0x000006       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB4   0x000005       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB5   0x000004       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB6   0x000003       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB7   0x000002       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                   __AEXP   0x00000a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __BARGB0   0x00000e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\barg.asm
+                 __BARGB1   0x00000d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\barg.asm
+                 __BARGB2   0x00000c       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\barg.asm
+                 __BARGB3   0x00000b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\barg.asm
+                   __BEXP   0x00000f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\barg.asm
+                __FPFLAGS   0x000001       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000001       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\cmath18.asm
+                  __REMB0   0x000005       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                  __REMB1   0x000004       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                  __REMB2   0x000003       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                  __REMB3   0x000002       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                   __TEMP   0x000013       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
+                 __TEMPB3   0x000010       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\uopen.c
+                  __tmp_0   0x000014       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\printf.c
+                  __tmp_0   0x000014       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __tmp_0   0x000014       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
+                  __tmp_0   0x000014       data     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                  __tmp_0   0x000014       data     static C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+                  __tmp_0   0x000014       data     static C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+                curr_byte   0x000203       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+               curr_entry   0x000205       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                 data_ptr   0x000207       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                     dcf1   0x0000e8       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+                     dcf2   0x0000f2       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+              dcfbitcount   0x000215       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+                dcfbuffer   0x0000e0       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+             dcfdecodenow   0x000217       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+             dcfpulsetime   0x000213       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+           dcfsavetimenow   0x000218       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+              dcfsequence   0x000216       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+             dcfsyncstate   0x000219       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+                debugmode   0x0000a6       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                    digit   0x00009c       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                  display   0x0000aa       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              editdisplay   0x0000de       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                keystate1   0x0000bc       data     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                 lastTemp   0x0000ae       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                     mode   0x0000a8       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                     prom   0x000200       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                    queue   0x000060       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              queue_start   0x0000b8       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               queue_stop   0x0000ba       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                   state1   0x0000b6       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                   stdout   0x0000fc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\stdout.c
+              timeout1sec   0x0000b1       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+           timeout500msec   0x0000b2       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+            timeout50msec   0x0000b0       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                timer1sec   0x0000b5       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+             timer500msec   0x0000b4       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              timer50msec   0x0000b3       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                 workmode   0x0000ac       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   _entry   0x000000    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+       ___return_lbl00000   0x000004    program     static                          
+               _user_putc   0x000006    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\_user_putc.c
+ interrupt_at_high_vector   0x000008    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+       ___return_lbl00003   0x00000c    program     static                          
+                   __init   0x00000e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\__init.c
+  interrupt_at_low_vector   0x000018    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+       ___return_lbl00000   0x00001c    program     static                          
+                  low_isr   0x000044    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                 high_isr   0x00006e    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              dcfsavetime   0x000162    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                     push   0x00025e    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+         get_queue_length   0x0002de    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                      pop   0x00033e    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               dokeyboard   0x00039e    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+            handlekeycode   0x0004d8    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                 shiftout   0x0006da    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                   strobe   0x000776    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+            displayUpdate   0x000786    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+       displayTemperature   0x0007c2    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              displayTime   0x000960    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              displayDate   0x000a16    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              displayYear   0x000ace    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+  setDisplayBuffersToZero   0x000b38    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                configure   0x000b5a    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                     main   0x000b80    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+            s_put_n_chars   0x000f34    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                 vfprintf   0x000f60    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+              __tmplbl_85   0x000f8a    program     static                          
+              __tmplbl_44   0x001838    program     static                          
+              __tmplbl_43   0x001852    program     static                          
+                   __pa_0   0x001874    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_1   0x00187c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_2   0x001886    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_3   0x001890    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_4   0x0018a8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_5   0x0018bc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_6   0x0018d8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_7   0x0018e2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_8   0x0018ee    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __pa_9   0x001910    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_10   0x001930    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_11   0x00193e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_12   0x001954    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_13   0x00196e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_14   0x001986    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_15   0x001996    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_16   0x0019ac    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_17   0x0019be    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_18   0x0019d0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_19   0x0019da    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_20   0x0019ea    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_21   0x0019fa    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_22   0x001a0a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+              __tmplbl_42   0x001a0a    program     static                          
+                  __pa_23   0x001a16    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_24   0x001a24    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_25   0x001a2c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_26   0x001a36    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_27   0x001a40    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_28   0x001a48    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_29   0x001a56    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_30   0x001a72    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_31   0x001a8c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_32   0x001aa6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_33   0x001abe    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_34   0x001ac8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_35   0x001ad6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_36   0x001ade    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_37   0x001ae8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_38   0x001af8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_39   0x001b06    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_40   0x001b12    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_41   0x001b1e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_42   0x001b26    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_43   0x001b30    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_44   0x001b36    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_45   0x001b40    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __pa_46   0x001b4c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                bcddecode   0x001b56    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+                bcdencode   0x001b7e    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+                  RTCRead   0x001bbe    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+                 RTCWrite   0x001c90    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+               RTCGetTemp   0x001d48    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+               RTCGetTime   0x001e2c    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+               RTCSetTime   0x00215a    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+                  initRTC   0x00237a    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+           bcddecodelocal   0x00239a    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+            do_dcf_decode   0x0023c2    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+                dcfdecode   0x00271e    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+               dcfpulseup   0x0027ba    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+             dcfpulsedown   0x0027ec    program     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+              __string_11   0x002896    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              __string_10   0x0028ac    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_9   0x0028c1    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_8   0x0028df    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_7   0x0028fb    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_6   0x002917    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_5   0x002928    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_4   0x002936    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_3   0x00293b    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_2   0x002941    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_1   0x002948    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_0   0x00294e    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __string_0   0x00297c    program     static C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+               __string_2   0x0029ac    program     static C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+               __string_1   0x0029cf    program     static C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+               __string_0   0x0029f9    program     static C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+                 FXD3232S   0x002a22    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232s.asm
+                  DA3232S   0x002a3c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232s.asm
+                   D3232S   0x002a52    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232s.asm
+                 D3232SOK   0x002a5c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232s.asm
+                D3232SNEG   0x002a60    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232s.asm
+                  D3232SX   0x002a80    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232s.asm
+                 FXM1616U   0x002a8a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616u.asm
+                 FXM1616S   0x002ac6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x002b12    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
+                   memcpy   0x002b20    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memcpy.asm
+                    jLoop   0x002b48    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memcpy.asm
+              _4jContinue   0x002b54    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memcpy.asm
+                   _5jEnd   0x002b5e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memcpy.asm
+                     jEnd   0x002b64    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memcpy.asm
+                   memset   0x002b76    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memset.asm
+                    jLoop   0x002b8a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memset.asm
+              _2jContinue   0x002b96    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memset.asm
+                   _3jEnd   0x002ba0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memset.asm
+                     jEnd   0x002ba8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\memset.asm
+                   strlen   0x002baa    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                    jLoop   0x002bba    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                     jEnd   0x002bc4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x002bc6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x002be4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                   _2jEnd   0x002bfa    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x002bfc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                _do_cinit   0x002c10    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                     test   0x002c2a    program     static                          
+                copy_loop   0x002c82    program     static                          
+            copy_one_byte   0x002c88    program     static                          
+             done_copying   0x002c96    program     static                          
+       ___return_lbl00002   0x002cac    program     static                          
+                     done   0x002cac    program     static                          
+                   printf   0x002cae    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\printf.c
+                OpenUSART   0x002d46    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\uopen.c
+                     putc   0x002dd0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
+                 WriteI2C   0x002e54    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\i2c\i2c_writ.c
+                  FXM3232   0x002ec6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x002f34    program     static                          
+                 FXD3232U   0x002f36    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232u.c
+                     loop   0x002f44    program     static                          
+                   _false   0x002f78    program     static                          
+       ___return_lbl00000   0x002f7c    program     static                          
+               OpenTimer0   0x002f7e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\Timers\t0open.c
+                  OpenI2C   0x002fb6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\i2c\i2c_open.c
+                 FXD1616U   0x002fec    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd1616u.c
+                     loop   0x002ff6    program     static                          
+                  endloop   0x003012    program     static                          
+       ___return_lbl00000   0x003016    program     static                          
+                  isdigit   0x003018    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x003038    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x00303a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+            __zero_memory   0x00303c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   loop_h   0x00304a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               zero_block   0x00304a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                compare_l   0x003052    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   loop_l   0x003054    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 _startup   0x00305c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                     loop   0x00306c    program     static                          
+       ___return_lbl00001   0x003076    program     static                          
+              _usart_putc   0x003078    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
+                     loop   0x003088    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
+                 FXD0808U   0x003094    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd0808u.c
+                     loop   0x00309c    program     static                          
+                  endloop   0x0030aa    program     static                          
+       ___return_lbl00000   0x0030ae    program     static                          
+                  ReadI2C   0x0030b0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\i2c\i2c_read.c
+              Delay10TCYx   0x0030ca    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+                     D10x   0x0030d2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000A   0x0030d4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x0030d6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x0030d8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+                    D10_1   0x0030da    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+                 s_digits   0x0030e0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  IdleI2C   0x0030f2    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\i2c\i2c_idle.c
+               __config_0   0x300000    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __config_1   0x300001    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __config_2   0x300002    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __config_3   0x300003    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __config_4   0x300005    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               __config_5   0x300006    program     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                     SIGN   0x000000       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000001       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\cmath18.asm
+                __FPFLAGS   0x000001       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\cmath18.asm
+                  __REMB3   0x000002       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB7   0x000002       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB6   0x000003       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                  __REMB2   0x000003       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB5   0x000004       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                  __REMB1   0x000004       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB4   0x000005       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                  __REMB0   0x000005       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB3   0x000006       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB2   0x000007       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB1   0x000008       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __AARGB0   0x000009       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                   __AEXP   0x00000a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                 __BARGB3   0x00000b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\barg.asm
+                 __BARGB2   0x00000c       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\barg.asm
+                 __BARGB1   0x00000d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\barg.asm
+                 __BARGB0   0x00000e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\barg.asm
+                   __BEXP   0x00000f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\barg.asm
+                 __TEMPB3   0x000010       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
+                   __TEMP   0x000013       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+                  __tmp_0   0x000014       data     static C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+                  __tmp_0   0x000014       data     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                  __tmp_0   0x000014       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
+                  __tmp_0   0x000014       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __tmp_0   0x000014       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\printf.c
+                  __tmp_0   0x000014       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\uopen.c
+                    queue   0x000060       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                    digit   0x00009c       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                debugmode   0x0000a6       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                     mode   0x0000a8       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                  display   0x0000aa       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                 workmode   0x0000ac       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                 lastTemp   0x0000ae       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+            timeout50msec   0x0000b0       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              timeout1sec   0x0000b1       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+           timeout500msec   0x0000b2       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              timer50msec   0x0000b3       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+             timer500msec   0x0000b4       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                timer1sec   0x0000b5       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                   state1   0x0000b6       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              queue_start   0x0000b8       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+               queue_stop   0x0000ba       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                keystate1   0x0000bc       data     static C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                BCDto7SEG   0x0000be       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+              editdisplay   0x0000de       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\main.c
+                dcfbuffer   0x0000e0       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+                     dcf1   0x0000e8       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+                     dcf2   0x0000f2       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+                   stdout   0x0000fc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\stdout.c
+                     prom   0x000200       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                curr_byte   0x000203       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+               curr_entry   0x000205       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                 data_ptr   0x000207       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+              CurrentTime   0x00020a       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\ds3231.c
+             dcfpulsetime   0x000213       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+              dcfbitcount   0x000215       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+              dcfsequence   0x000216       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+             dcfdecodenow   0x000217       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+           dcfsavetimenow   0x000218       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+             dcfsyncstate   0x000219       data     extern C:\Users\bseip\Documents\picprojects\numitronclock\dcf.c
+                     UEP0   0x000f53       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP0bits   0x000f53       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP1   0x000f54       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP1bits   0x000f54       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP2   0x000f55       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP2bits   0x000f55       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP3bits   0x000f56       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP3   0x000f56       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP4bits   0x000f57       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP4   0x000f57       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP5   0x000f58       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP5bits   0x000f58       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP6   0x000f59       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP6bits   0x000f59       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEP7bits   0x000f5a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEP7   0x000f5a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEIE   0x000f5b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEIEbits   0x000f5b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                UADDRbits   0x000f5c       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    UADDR   0x000f5c       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                UFRMLbits   0x000f5d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    UFRML   0x000f5d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    UFRMH   0x000f5e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                UFRMHbits   0x000f5e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UEIR   0x000f5f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UEIRbits   0x000f5f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  UIEbits   0x000f60       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                      UIE   0x000f60       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UCFGbits   0x000f61       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UCFG   0x000f61       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  UIRbits   0x000f62       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                      UIR   0x000f62       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                USTATbits   0x000f63       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    USTAT   0x000f63       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 UCONbits   0x000f64       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     UCON   0x000f64       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SRCON0   0x000f68       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               SRCON0bits   0x000f68       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SRCON1   0x000f69       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               SRCON1bits   0x000f69       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              CM2CON0bits   0x000f6b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  CM2CON0   0x000f6b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              CM2CON1bits   0x000f6c       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  CM2CON1   0x000f6c       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              CM1CON0bits   0x000f6d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  CM1CON0   0x000f6d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               SSPMSKbits   0x000f6f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SSPMSK   0x000f6f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SLRCON   0x000f76       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               SLRCONbits   0x000f76       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     WPUA   0x000f77       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 WPUAbits   0x000f77       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 WPUBbits   0x000f78       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     WPUB   0x000f78       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 IOCAbits   0x000f79       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     IOCA   0x000f79       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 IOCBbits   0x000f7a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     IOCB   0x000f7a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                ANSELbits   0x000f7e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    ANSEL   0x000f7e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               ANSELHbits   0x000f7f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   ANSELH   0x000f7f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    PORTA   0x000f80       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                PORTAbits   0x000f80       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                PORTBbits   0x000f81       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    PORTB   0x000f81       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    PORTC   0x000f82       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                PORTCbits   0x000f82       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     LATA   0x000f89       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 LATAbits   0x000f89       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     LATB   0x000f8a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 LATBbits   0x000f8a       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 LATCbits   0x000f8b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     LATC   0x000f8b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                TRISAbits   0x000f92       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TRISA   0x000f92       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 DDRAbits   0x000f92       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     DDRA   0x000f92       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 DDRBbits   0x000f93       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     DDRB   0x000f93       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                TRISBbits   0x000f93       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TRISB   0x000f93       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TRISC   0x000f94       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                TRISCbits   0x000f94       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 DDRCbits   0x000f94       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     DDRC   0x000f94       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  OSCTUNE   0x000f9b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     PIE1   0x000f9d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 PIE1bits   0x000f9d       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     PIR1   0x000f9e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 PIR1bits   0x000f9e       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 IPR1bits   0x000f9f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     IPR1   0x000f9f       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 PIE2bits   0x000fa0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     PIE2   0x000fa0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 PIR2bits   0x000fa1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     PIR2   0x000fa1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 IPR2bits   0x000fa2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     IPR2   0x000fa2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               EECON1bits   0x000fa6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   EECON1   0x000fa6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   EECON2   0x000fa7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   EEDATA   0x000fa8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                EEADRbits   0x000fa9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    EEADR   0x000fa9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    RCSTA   0x000fab       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                RCSTAbits   0x000fab       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TXSTA   0x000fac       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                TXSTAbits   0x000fac       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TXREG   0x000fad       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    RCREG   0x000fae       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    SPBRG   0x000faf       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SPBRGH   0x000fb0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                T3CONbits   0x000fb1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    T3CON   0x000fb1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TMR3L   0x000fb2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TMR3H   0x000fb3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  ECCP1AS   0x000fb6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  PWM1CON   0x000fb7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              PWM1CONbits   0x000fb7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              BAUDCTLbits   0x000fb8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  BAUDCTL   0x000fb8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  BAUDCON   0x000fb8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              BAUDCONbits   0x000fb8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  PSTRCON   0x000fb9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              PSTRCONbits   0x000fb9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  REFCON0   0x000fba       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              REFCON0bits   0x000fba       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 VREFCON0   0x000fba       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+             VREFCON0bits   0x000fba       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              REFCON1bits   0x000fbb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  REFCON1   0x000fbb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 VREFCON1   0x000fbb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+             VREFCON1bits   0x000fbb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 VREFCON2   0x000fbc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+             VREFCON2bits   0x000fbc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  REFCON2   0x000fbc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              REFCON2bits   0x000fbc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  CCP1CON   0x000fbd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              CCP1CONbits   0x000fbd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    CCPR1   0x000fbe       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   CCPR1L   0x000fbe       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   CCPR1H   0x000fbf       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   ADCON2   0x000fc0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               ADCON2bits   0x000fc0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   ADCON1   0x000fc1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               ADCON1bits   0x000fc1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   ADCON0   0x000fc2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               ADCON0bits   0x000fc2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    ADRES   0x000fc3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   ADRESL   0x000fc3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   ADRESH   0x000fc4       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  SSPCON2   0x000fc5       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              SSPCON2bits   0x000fc5       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  SSPCON1   0x000fc6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              SSPCON1bits   0x000fc6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  SSPSTAT   0x000fc7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              SSPSTATbits   0x000fc7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SSPADD   0x000fc8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   SSPBUF   0x000fc9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                T2CONbits   0x000fca       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    T2CON   0x000fca       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                      PR2   0x000fcb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     TMR2   0x000fcc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                T1CONbits   0x000fcd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    T1CON   0x000fcd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TMR1L   0x000fce       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TMR1H   0x000fcf       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     RCON   0x000fd0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 RCONbits   0x000fd0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               WDTCONbits   0x000fd1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   WDTCON   0x000fd1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  OSCCON2   0x000fd2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              OSCCON2bits   0x000fd2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   OSCCON   0x000fd3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               OSCCONbits   0x000fd3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                T0CONbits   0x000fd5       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    T0CON   0x000fd5       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TMR0L   0x000fd6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    TMR0H   0x000fd7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   STATUS   0x000fd8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               STATUSbits   0x000fd8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    FSR2L   0x000fd9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     FSR2   0x000fd9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    FSR2H   0x000fda       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   PLUSW2   0x000fdb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  PREINC2   0x000fdc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 POSTDEC2   0x000fdd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 POSTINC2   0x000fde       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    INDF2   0x000fdf       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                      BSR   0x000fe0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     FSR1   0x000fe1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    FSR1L   0x000fe1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    FSR1H   0x000fe2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   PLUSW1   0x000fe3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  PREINC1   0x000fe4       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 POSTDEC1   0x000fe5       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 POSTINC1   0x000fe6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    INDF1   0x000fe7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     WREG   0x000fe8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                        W   0x000fe8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    FSR0L   0x000fe9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     FSR0   0x000fe9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    FSR0H   0x000fea       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   PLUSW0   0x000feb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  PREINC0   0x000fec       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 POSTDEC0   0x000fed       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                 POSTINC0   0x000fee       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    INDF0   0x000fef       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              INTCON3bits   0x000ff0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  INTCON3   0x000ff0       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+              INTCON2bits   0x000ff1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  INTCON2   0x000ff1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               INTCONbits   0x000ff2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   INTCON   0x000ff2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    PRODL   0x000ff3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     PROD   0x000ff3       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                    PRODH   0x000ff4       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   TABLAT   0x000ff5       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   TBLPTR   0x000ff6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  TBLPTRL   0x000ff6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  TBLPTRH   0x000ff7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                  TBLPTRU   0x000ff8       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                      PCL   0x000ff9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                       PC   0x000ff9       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   PCLATH   0x000ffa       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   PCLATU   0x000ffb       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+               STKPTRbits   0x000ffc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                   STKPTR   0x000ffc       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                      TOS   0x000ffd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     TOSL   0x000ffd       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     TOSH   0x000ffe       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+                     TOSU   0x000fff       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F14K50.asm
+
+

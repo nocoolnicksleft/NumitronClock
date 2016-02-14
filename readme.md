@@ -5,7 +5,7 @@ Clock made with 7-segment incandescent display tubes. They give a very warm ligh
 
 ![Numitron Clock](Images/500_numitron-8.JPG)
 
-The clock is deliberateley not driven in a multiplex way. Reasons for this are the I wanted to take interesting photographs of it and of course that it will be better for the tubes lifetime. And having thouse symmetric looking DIL-Components behind each digit looks nice as well.
+The clock is deliberateley not driven in a multiplex way. Reasons for this are the I wanted to take interesting photographs of it and of course that it will be better for the tubes lifetime. And having those symmetric looking DIL-Components behind each digit looks nice as well.
 
 More features are a high precision DC3231 RTC with integrated crystal, connection for UART interface and time-signal receiver.
 
